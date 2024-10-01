@@ -10,7 +10,8 @@ module.exports = {
           owner: 'ByoungInKim',
           name: 'batch-name'
         },
-        prerelease: false,
+        authToken: process.env.GITHUB_TOKEN,
+        prerelease: true,
         draft: true
       }
     }
