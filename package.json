@@ -1,6 +1,6 @@
 {
   "name": "batch-name",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "license": "MIT",
   "main": "main.js",
   "author": "KiMong",
@@ -25,7 +25,12 @@
     "electron": "^32.1.2"
   },
   "dependencies": {
+    "electron-log": "^5.2.0",
     "electron-squirrel-startup": "^1.0.1",
     "update-electron-app": "^3.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ByoungInKim/batch-name.git"
   }
 }

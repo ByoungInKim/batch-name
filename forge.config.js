@@ -11,8 +11,8 @@ module.exports = {
           name: 'batch-name'
         },
         authToken: process.env.GITHUB_TOKEN,
-        prerelease: true,
-        draft: true
+        prerelease: false,
+        draft: false
       }
     }
   ],
